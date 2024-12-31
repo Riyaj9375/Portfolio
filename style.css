@@ -372,7 +372,6 @@ header .navbar ul li a:hover {
 .about .row .content p {
   font-size: 1.5rem;
   margin-top: 1.5rem;
-  font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
 }
@@ -512,6 +511,10 @@ header .navbar ul li a:hover {
   width: 50%;
   animation: react 3s;
 }
+.mysql {
+  width: 80%;
+  animation: mysql 3s;
+}
 @keyframes html {
   0% {
     width: 0%;
@@ -542,6 +545,14 @@ header .navbar ul li a:hover {
   }
   100% {
     width: 50%;
+  }
+}
+@keyframes mysql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
   }
 }
 
@@ -612,6 +623,8 @@ header .navbar ul li a:hover {
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
+  height: 30%;
+  width: 80%;
 }
 .work .box-container .box {
   flex: 1 1 30rem;
@@ -622,6 +635,9 @@ header .navbar ul li a:hover {
   height: 30rem;
   background: #fff;
   border: none;
+  right: -8%;
+  margin-top: 30px;
+  border: 3px solid rgb(255, 230, 0);
 }
 .work .box-container .box img {
   height: 100%;
