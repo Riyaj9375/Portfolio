@@ -75,7 +75,7 @@
               <a
                 class="github"
                 aria-label="GitHub"
-                href="https://www.instagram.com/Riyaj9375"
+                href="https://github.com/Riyaj9375"
                 target="_blank"
                 ><i class="fab fa-github"></i
               ></a>
@@ -342,12 +342,12 @@
           <img draggable="false" src="./assets/images/projects/sm.png" alt="" />
           <div class="content">
             <div class="tag">
-              <h3>Badic Social Media App</h3>
+              <h3>Basic Social Media App</h3>
             </div>
             <div class="desc">
               <p>
-                Developed a basic social media app using React.js, featuring
-                user authentication, posts, and interactive UI components!
+                Developed a basic social media app using React.js, with posts,
+                and interactive UI components!
               </p>
               <div class="btns">
                 <a
@@ -397,29 +397,40 @@
           </div>
           <form id="contact-form">
             <div class="form-group">
-              <div class="field">
-                <input type="text" name="name" placeholder="Name" required />
-                <i class="fas fa-user"></i>
-              </div>
-              <div class="field">
-                <input type="text" name="email" placeholder="Email" required />
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="field">
-                <input type="text" name="phone" placeholder="Phone" />
-                <i class="fas fa-phone-alt"></i>
-              </div>
-              <div class="message">
-                <textarea
-                  placeholder="Message"
-                  name="message"
-                  required
-                ></textarea>
-                <i class="fas fa-comment-dots"></i>
-              </div>
+              <form
+                method="post"
+                name="contact-form"
+                action="https://script.google.com/macros/s/AKfycbynnL7A9cL0UlCj24DXsNYzfZDMXI23qlcXeSPTtnut-DYGMi5GbjuZ_gJrbpqqR_y7/exec"
+              >
+                <div class="field">
+                  <input type="text" name="name" placeholder="Name" required />
+                  <i class="fas fa-user"></i>
+                </div>
+                <div class="field">
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="field">
+                  <input type="text" name="phone" placeholder="Phone" />
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="message">
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
+                  <i class="fas fa-comment-dots"></i>
+                </div>
+              </form>
             </div>
             <div class="button-area">
-              <button type="submit">
+              <button type="submit" type="submit" id="submit">
                 Submit <i class="fa fa-paper-plane"></i>
               </button>
             </div>
@@ -544,5 +555,6 @@
     <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
     <script src="script.js"></script>
+    <script src="Google Sheet.js"></script>
   </body>
 </html>
